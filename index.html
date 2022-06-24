@@ -30,17 +30,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/general.css" rel="stylesheet">
+    <link href="css/general.scss" rel="stylesheet">
+    <script src="js/date_final.js"></script>
 </head>
 
-<body>
-    <!-- Spinner Start -->
-    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
-    </div> -->
-    <!-- Spinner End -->
-
+<body onload="checarTiempo()">
 
     <!-- Topbar Start -->
     <div class="container-logo container-fluid pt-3 wow fadeIn" data-wow-delay="0.1s">
@@ -51,96 +45,72 @@
         <div class="grad-l"></div>
     </div>
     
-    <!-- Topbar End -->
     <div class="container-presentation container-fluid wow fadeIn" data-wow-delay="0.1s">
-        <!-- <div class="row justify-content-center gx-0 d-none d-lg-flex">
-            <img src="img/assets/header.png" class="rounded mx-auto d-block" alt="Responsive image">
-        </div> -->
     </div>
     
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        
-        <!-- <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Our Features</a>
-                        <a href="project.html" class="dropdown-item">Our Projects</a>
-                        <a href="team.html" class="dropdown-item">Team Members</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Appointment</a>
-        </div> -->
-    </nav>
-    <!-- Navbar End -->
-
+    
 
     <!-- Carousel Start -->
-    <div class="carrusel-imgs container-fluid p-0 pb-3 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/assets/img-a.jpeg'>">
-                <img class="img-fluid" src="img/assets/img-a.jpeg" alt="">
-                <!-- <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Best Architecture And Interior Design Services</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
-                            </div>
+    <div class="carrusel-imgs container-fluid p-0 pb-3 wow fadeIn" data-wow-delay="1.0s">
+        <div class="text-carrusel">
+            <div class="title-save text-center">Save The Date</div>
+            <div class="date-save text-center pt-1">19 / Noviembre / 2022</div>
+            <p class="content-save text-center pt-3">Hamas gano combinando una fuerte resistencia contra la ocupacion militar con la creacion de organizaciones sociales de base y de servicio a los pobres, una plataforma y una practica que probablemente haria ganar votos en cualquier lugar. La victoria electoral de Hamas es ominosa pero comprensible, a la luz de los acontecimientos. Es enteramente justo describir a Hamas como fundamentalista, extremista y violentista, y como una seria amenaza a la paz y a un acuerdo politicamente justo. Sin embargo, es útil recordar que en aspectos importantes, Hamas no es tan extremista como otros. </p>
+            <p class="content-save text-center pt-1">FALTAN</p>
+            <div class="date-final">
+                <div class="row content-date">
+                    <div class="col-3">
+                        <div class="row">
+                            <p class="text-center date-esp mb-0" id="date-day"></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-center date-label">Días</p>
                         </div>
                     </div>
-                </div> -->
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/assets/img-b.jpeg'>">
-                <img class="img-fluid" src="img/assets/img-b.jpeg" alt="">
-                <!-- <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Best Architecture And Interior Design Services</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
-                            </div>
+                    <div class="col-3">
+                        <div class="row">
+                            <p class="text-center date-esp mb-0" id="date-hr"></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-center date-label">Horas</p>
                         </div>
                     </div>
-                </div> -->
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/assets/img-c.jpeg'>">
-                <img class="img-fluid" src="img/assets/img-c.jpeg" alt="">
-                <!-- <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Best Architecture And Interior Design Services</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
-                            </div>
+                    <div class="col-3">
+                        <div class="row">
+                            <p class="text-center date-esp mb-0" id="date-min"></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-center date-label">Mins</p>
                         </div>
                     </div>
-                </div> -->
+                    <div class="col-3">
+                        <div class="row">
+                            <p class="text-center date-esp mb-0" id="date-seg"></p>
+                        </div>
+                        <div class="row">
+                            <p class="text-center date-label">Segs</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <img class="img-fluid img-principal" src="img/assets/img-a.jpeg" alt="">
+        <div class="text-center mt-2 mb-1 wow fadeInUp" style="max-width: inherit;" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="names-love">
+                <p class="text-center mb-0">Evelyn Silva y Edgar Sanabria</p>
+            </div>
+        </div>
+        
     </div>
     <!-- Carousel End -->
 
+    
 
     <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container pt-5">
+    <div class="container-xxl content-info-boda">
+       
+        <div class="container pt-1">
+            <img class="img-fluid img-principal" src="img/assets/img-a.jpeg" alt="">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
