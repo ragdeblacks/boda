@@ -278,6 +278,13 @@
         font-family: Montserrat-Regular;
         font-size: 11px;
     }
+    .footer-copy{
+        padding-top: 9%; 
+        padding-bottom: .5%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
@@ -405,6 +412,18 @@
         font-family: Montserrat-Regular;
         font-size: 15px;
     }
+    .container-gallery .column{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .footer-copy{
+        padding-top: 9%; 
+        padding-bottom: 2%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
     
 }
   
@@ -512,5 +531,11 @@
         font-family: Montserrat-Regular;
         font-size: 20px;
     }
-    
+    .footer-copy{
+        padding-top: 3%; 
+        padding-bottom: 1%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
 }
