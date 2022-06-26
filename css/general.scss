@@ -77,19 +77,46 @@
 .logo-img {
     max-width: 7%;
 }
+.container-confirma{
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
 .container-logo{
-    z-index: 4;
+    z-index: 6;
     position: relative;
     background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7% !important;
 }
-.container-presentation{
-    z-index: 3;
+.container-logo-2{
+    z-index: 6;
     position: relative;
-    top: -87px;
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7% !important;
 }
-.header-carousel .owl-carousel-item {
-    min-height: 250px !important;
+.container-decorator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    height: auto; 
 }
+.container-save-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+
 .text-carrusel{
     position: absolute; 
     z-index: 2;
@@ -97,13 +124,41 @@
 .date-final{
     border: 1px solid #BD9362; 
 }
-.img-principal{
-    width: 100%;
-    height: 80%;
+.icon-address{
+    max-width: 45% !important;
 }
+.content-address{
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.background-confirma{
+    background-color: #e8eaed;
+}
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+    .container-logo{
+        z-index: 6;
+        position: relative;
+        background: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 9% !important;
+    }
+    .container-logo-2{
+        z-index: 6;
+        position: relative;
+        background: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 6% !important;
+    }
     .img-logo{
         max-width:70%;
     }
@@ -111,13 +166,20 @@
         padding-left: 8px;
         padding-right: 8px;
     }
+    .contenedor-header{
+        top: -28px;
+        position:absolute;
+    }
+    .contenedor-header-2{
+        position:absolute;
+    }
     .grad-r {
         position: absolute;
         z-index: 4;
         height: 5px;
         width: 25%;
         right: 0px;
-        top: 40px;
+        top: -5px;
         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
     }
     .grad-l {
@@ -126,7 +188,7 @@
         height: 5px;
         width: 25%;
         left: 0px;
-        top: 40px;
+        top: -5px;
         background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
     }
     .carrusel-imgs{
@@ -137,7 +199,7 @@
     .text-carrusel{
         width: 36%;
         left: 5%;
-        top: 18%;
+        top: 20%;
         
     }
     .title-save{
@@ -185,9 +247,36 @@
         font-size: 20px;
         color: #BD9362;
     }
-    .content-info-boda{
-        position: relative;
-        top: -47px;
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 20px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 10px;
+    }
+    .container-confirma{
+        padding-top: 14%;
+        padding-bottom: 14%;
+    }
+    .container-confirma .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 20px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
     }
 }
   
@@ -208,7 +297,14 @@
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1380px){
     .img-logo{
-        max-width:50%;
+        max-width:55%;
+    }
+    .contenedor-header{
+        top: -80px;
+        position:absolute;
+    }
+    .contenedor-header-2{
+        position:absolute;
     }
     .grad-r {
         position: absolute;
@@ -216,7 +312,7 @@
         height: 15px;
         width: 33%;
         right: 0px;
-        top: 75px;
+        top: -15px;
         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
     }
     .grad-l {
@@ -225,7 +321,7 @@
         height: 15px;
         width: 33%;
         left: 0px;
-        top: 75px;
+        top: -15px;
         background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
     }
 
@@ -236,7 +332,6 @@
     }
     .content-info-boda{
         position: relative;
-        top: -143px;
     }
     .text-carrusel{
         width: 35%;
@@ -279,12 +374,48 @@
         font-size: 60px;
         color: #BD9362;
     }
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 45px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 18px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+    }
+    .container-confirma{
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    .container-confirma .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 45px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+    }
+    
 }
   
 /* Media Query for Large screens */
 @media (min-width: 1381px) {
     .img-logo{
-        max-width:50%;
+        max-width:60%;
+    }
+    .contenedor-header{
+        top: -122px;
+        position:absolute;
     }
     .grad-r {
         position: absolute;
@@ -292,7 +423,7 @@
         height: 15px;
         width: 40%;
         right: 0px;
-        top: 103px;
+        top: -15px;
         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
     }
     .grad-l {
@@ -301,7 +432,7 @@
         height: 15px;
         width: 40%;
         left: 0px;
-        top:  103px;
+        top: -15px;
         background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
     }
 
@@ -312,7 +443,6 @@
     }
     .content-info-boda{
         position: relative;
-        top: -205px;
     }
     .text-carrusel{
         width: 30%;
@@ -355,4 +485,32 @@
         font-size: 80px;
         color: #BD9362;
     }
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 60px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 20px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+    }
+    .container-confirma .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 50px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+    }
+    
 }
