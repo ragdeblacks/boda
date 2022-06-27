@@ -115,7 +115,14 @@
     height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
-
+.container-save-date-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(46, 46, 48)105%);
+}
 
 .text-carrusel{
     position: absolute; 
@@ -211,7 +218,7 @@
         padding-top: 0px !important;
         font-family: Montserrat-MediumItalic;
         font-size:xx-small;
-        color: #692867;
+        color: #BD9362;
     }
     .content-save{
         padding-top: 3px !important;
@@ -224,7 +231,7 @@
     .date-label{
         font-family: Montserrat-Light;
         font-size: 9px;
-        color: #692867;
+        color: #BD9362;
         line-height: 1;
         margin-bottom: 0px !important;
         padding-left: 3px;
@@ -244,7 +251,7 @@
     }
     .names-love p{
         font-family: Parisienne-Regular;
-        font-size: 20px;
+        font-size: 28px;
         color: #BD9362;
     }
     .img-vid{
@@ -269,7 +276,7 @@
     }
     .container-confirma .section-title{
         font-family: Parisienne-Regular;
-        font-size: 20px;
+        font-size: 24px;
         color: #BD9362;
         text-transform: capitalize;
         font-weight: normal;
@@ -284,6 +291,26 @@
     }
     .img-s{
         max-width: 42% !important;
+    }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 14px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
     }
 }
   
@@ -353,7 +380,7 @@
     .date-save{
         font-family: Montserrat-MediumItalic;
         font-size:25px;
-        color: #692867;
+        color: #BD9362;
     }
     .content-save{
         font-family: Montserrat-Medium;
@@ -364,7 +391,7 @@
     .date-label{
         font-family: Montserrat-Light;
         font-size: 25px;
-        color: #692867;
+        color: #BD9362;
         line-height: 1;
     }
     .date-esp{
@@ -424,6 +451,26 @@
     .img-s{
         max-width: 42% !important;
     }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 18px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
+    }
     
 }
   
@@ -476,7 +523,7 @@
     .date-save{
         font-family: Montserrat-MediumItalic;
         font-size:25px;
-        color: #692867;
+        color: #BD9362;
     }
     .content-save{
         font-family: Montserrat-Medium;
@@ -487,7 +534,7 @@
     .date-label{
         font-family: Montserrat-Light;
         font-size: 25px;
-        color: #692867;
+        color: #BD9362;
         line-height: 1;
     }
     .date-esp{
@@ -538,4 +585,31 @@
     .img-s{
         max-width: 42% !important;
     }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
+    }
+
+}
+.carousel-caption{
+    position: relative !important;
+    padding-bottom: 0px !important;
+    left: 0 !important;
+    right: 0 !important;
 }

@@ -24,5 +24,6 @@ function checarTiempo() {
         document.getElementById('date-seg').innerHTML = seconds;
 
     }, 1000);
-
+    var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+    var carousel = new bootstrap.Carousel(myCarousel)
 }

@@ -38,7 +38,8 @@
 
     <div class="container-logo container-fluid wow fadeIn" data-wow-delay="0.1s">
         <div style="position:relative">
-            <img src="img/assets/photos/z-1.jpg" class="img-fluid" style="width: -webkit-fill-available;" />
+            <div class="text-center container-save-date-3" ></div>
+            <img src="img/assets/photos/z-1.jpg" class="img-fluid img-principal-logo" style="width: -webkit-fill-available;" />
             <div class="text-center contenedor-header" >
                 <img  src="img/assets/header-2.png" class="img-fluid img-logo"  />
             </div>
@@ -46,7 +47,7 @@
                 <div class="text-carrusel">
                     <div class="title-save text-center">Save The Date</div>
                     <div class="date-save text-center pt-1">19 / Noviembre / 2022</div>
-                    <p class="content-save text-center pt-3">Hamas gano combinando una fuerte resistencia contra la ocupacion militar con la creacion de organizaciones sociales de base y de servicio a los pobres, una plataforma y una practica que probablemente haria ganar votos en cualquier lugar. La victoria electoral de Hamas es ominosa pero comprensible, a la luz de los acontecimientos.  </p>
+                    <p class="content-save text-center pt-3">Hace cinco años emprendimos un viaje que cambio nuestras vidas. En nuestro camino la vida nos ha llenado de momentos de confianza, paciencia, amor e inspiración. Hoy nos complace invitarlos a que sean testigos de una nueva etapa que hemos decidido comenzar y queremos que de corazón, formen parte de este momento tan importante para nosotros.  </p>
                     <p class="content-save text-center pt-1">FALTAN</p>
                     <div class="date-final">
                         <div class="row content-date">
@@ -105,7 +106,7 @@
     <!-- Facts Start -->
     <div class="container-xxl content-info-boda wow fadeInUp mb-4" data-wow-delay="0.1s">
         <div class="container text-center pt-1">
-            <img class="img-fluid img-vid" src="img/assetsimg-a.jpeg" alt="">
+            <img class="img-fluid img-vid" src="img/assets/img-a.jpeg" alt="">
         </div>
     </div>
     <!-- Facts End -->
@@ -118,8 +119,8 @@
                 <p class="mb-0 info-boda-address">P.º de la Florida s/n, La Florida, 53160 Naucalpan de Juárez, Méx.</p>
                 <p class="mb-0 info-boda-address"><strong>Horario:</strong> 6:00 PM</p>
                 <div class="row content-address">
-                    <div class="col" onclick="document.location.href='https://goo.gl/maps/JqqokXNSHvMSsroY7'"><img src="img/assets/google.png"  class="img-fluid icon-address"></div>
-                    <div class="col" onclick="document.location.href='https://waze.com/ul/h9g3qvvtbz'"><img src="img/assets/waze.png" class="img-fluid icon-address"></div>
+                    <div class="col" onclick="window.open('https://goo.gl/maps/JqqokXNSHvMSsroY7');"><img src="img/assets/google.png"  class="img-fluid icon-address"></div>
+                    <div class="col" onclick="window.open('https://waze.com/ul/h9g3qvvtbz');"><img src="img/assets/waze.png" class="img-fluid icon-address"></div>
                 </div>
                 
 
@@ -133,8 +134,8 @@
                 <p class="mb-0 info-boda-address">Cto. Circunvalación Ote. 10, Cd. Satélite, 53100 Naucalpan de Juárez, Méx.</p>
                 <p class="mb-0 info-boda-address"><strong>Horario:</strong> 7:00 PM</p>
                 <div class="row content-address">
-                    <div class="col" onclick="document.location.href='https://goo.gl/maps/qmh6nCYQvxa8GiE48'"><img src="img/assets/google.png"  class="img-fluid icon-address"></div>
-                    <div class="col" onclick="document.location.href='https://waze.com/ul/h9g3qvvu56'"><img src="img/assets/waze.png" class="img-fluid icon-address"></div>
+                    <div class="col" onclick="window.open('https://goo.gl/maps/qmh6nCYQvxa8GiE48');"><img src="img/assets/google.png"  class="img-fluid icon-address"></div>
+                    <div class="col" onclick="window.open('https://waze.com/ul/h9g3qvvu56');"><img src="img/assets/waze.png" class="img-fluid icon-address"></div>
                 </div>
 
             </div>
@@ -158,7 +159,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="section-title">Confirma tu Asistencia</p>
-                        <p class="section-info mb-4">Para nosotros es muy importante conocer quienes nos acompañaran en este momento tan importante de nuestras vidas.  </p>
+                        <p class="section-info mb-4">Para nosotros es muy importante conocer quienes nos acompañaran en este momento tan importante de nuestras vidas. Te pedimos que nos ayudes verificando la cantidad de boletos que con seguridad ocuparas, es muy importante para nosotros.</p>
                         <div class="row g-4">
                             
                             
@@ -288,12 +289,15 @@
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4 img-fluid" src="img/assets/code-3.png">
-                            <h3 class="mb-3">Hotel City Express Plus Satélite</h3>
-                            <p class="mb-4"><strong>Dirección:</strong> Cto. Arquitectos 3, Cd. Satélite, 53100 Naucalpan de Juárez,
+                            <img class="mb-4 img-fluid" src="img/assets/Hotel-icon.png">
+                            <h3 class="mb-3 title-hotel">Hotel City Express Plus Satélite</h3>
+                            <p class="mb-4 text-hotel"><strong>Dirección:</strong> Cto. Arquitectos 3, Cd. Satélite, 53100 Naucalpan de Juárez,
                                 Méx.
-                            <strong>TEL.</strong> 55 5249 8080</p>
-                            <a class="btn" href="https://goo.gl/maps/sJsLncPD2nKttVSJ7"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
+                            <strong>TEL.</strong> 55 5249 8080
+                            <strong>Convenio de alojamiento por Boda WTC Mexiquense</strong>
+                            </p>
+                            
+                            <a class="btn" onclick="window.open('https://goo.gl/maps/sJsLncPD2nKttVSJ7');"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
                         </div>
                     </div>
                 </div>
@@ -301,12 +305,12 @@
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img"  alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4 img-fluid" src="img/assets/code-1.png">
-                            <h3 class="mb-3">Hotel Krystal Satélite María Bárbara</h3>
-                            <p class="mb-4"><strong>Dirección:</strong> Perif. Blvd. Manuel Ávila Camacho 2300, San Lucas
+                            <img class="mb-4 img-fluid" src="img/assets/Hotel-icon.png">
+                            <h3 class="mb-3 title-hotel">Hotel Krystal Satélite María Bárbara</h3>
+                            <p class="mb-4 text-hotel"><strong>Dirección:</strong> Perif. Blvd. Manuel Ávila Camacho 2300, San Lucas
                                 Tepetlacalco, 54055 Tlalnepantla de Baz, Méx.
                             <strong>TEL:</strong> 55 53 66 99 24</p>
-                            <a class="btn" href="https://goo.gl/maps/cNmiQitwtwGB698y6"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
+                            <a class="btn" onclick="window.open('https://goo.gl/maps/cNmiQitwtwGB698y6');"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
                         </div>
                     </div>
                 </div>
@@ -314,12 +318,12 @@
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4 img-fluid" src="img/assets/code-2.png">
-                            <h3 class="mb-3">Hotel Parque Satélite</h3>
-                            <p class="mb-4"><strong>Dirección:</strong> Perif. Blvd. Manuel Ávila Camacho 1998, San Lucas Tepetlacalco, 54055
+                            <img class="mb-4 img-fluid" src="img/assets/Hotel-icon.png">
+                            <h3 class="mb-3 title-hotel">Hotel Parque Satélite</h3>
+                            <p class="mb-4 text-hotel"><strong>Dirección:</strong> Perif. Blvd. Manuel Ávila Camacho 1998, San Lucas Tepetlacalco, 54055
                                 Tlalnepantla de Baz, Méx.
                             <strong>TEL.</strong> 55 55 98 32 09; 55 53 98 33 95; 55 59 32 36 04</p>
-                            <a class="btn" href="https://goo.gl/maps/pys9YsgaDtf2ue716"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
+                            <a class="btn" onclick="window.open('https://goo.gl/maps/pys9YsgaDtf2ue716');"><i class="fa fa-plus text-primary me-3"></i>Ubicacion</a>
                         </div>
                     </div>
                 </div>
@@ -345,8 +349,8 @@
                         <img class="bg-img"  >
                         <div class="service-text p-5" >
                             <img class="mb-4 img-fluid" src="img/assets/amazon-logo.png" >
-                            <h3 class="mb-3">Mesa de Regalos de Amazon</h3>
-                            <a class="btn" href="https://www.amazon.com.mx/wedding/share/eddy-eve-boda-2022"><i class="fa fa-plus text-primary me-3"></i>Ver Mesa</a>
+                            <h3 class="mb-3 title-hotel">Mesa de Regalos de Amazon</h3>
+                            <a class="btn" onclick="window.open('https://www.amazon.com.mx/wedding/share/eddy-eve-boda-2022', '_blank');" ><i class="fa fa-plus text-primary me-3"></i>Ver Mesa</a>
                         </div>
                     </div>
                 </div>
@@ -355,8 +359,8 @@
                         <img class="bg-img"  >
                         <div class="service-text p-5">
                             <img class="mb-4 img-fluid" src="img/assets/liverpool-logo.png">
-                            <h3 class="mb-3">Mesa de Regalos Liverpool</h3>
-                            <a class="btn" href="http://mesaderegalos.liverpool.com.mx/milistaderegalos/50850754"><i class="fa fa-plus text-primary me-3"></i>Ver Mesa</a>
+                            <h3 class="mb-3 title-hotel">Mesa de Regalos Liverpool</h3>
+                            <a class="btn" onclick="window.open('http://mesaderegalos.liverpool.com.mx/milistaderegalos/50850754', '_blank');" ><i class="fa fa-plus text-primary me-3"></i>Ver Mesa</a>
                         </div>
                     </div>
                 </div>
@@ -364,9 +368,39 @@
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img"  >
                         <div class="service-text p-5" style="width: -webkit-fill-available;">
-                            <img class="mb-4 img-fluid" src="img/assets/Man.png">
-                            <h3 class="mb-3">Codigo de Vestimenta</h3>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Ver Detalles</a>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    
+                                    <img src="img/assets/Man.png" class="img-fluid" >
+                                    
+                                    
+                                    <div class="carousel-caption">
+                                        <p class="mb-0 text-codigov">Formal - Smoking o traje</p>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/assets/mujer.png" class="img-fluid" alt="...">
+                                    <div class="carousel-caption">
+                                        <p class="mb-0 text-codigov">Formal - Vestido largo excepto color bugambilia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <h3 class="mb-3 title-hotel">Codigo de Vestimenta</h3>
+                        
+                            
                         </div>
                     </div>
                 </div>
@@ -377,7 +411,24 @@
     <!-- Service End -->
 
 
+    <!-- <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item " data-dot="<img src='img/carousel-1.jpg'>">
+                <img class="img-fluid" src="img/assets/Man.png" alt="">
+                <div class="owl-carousel-inner">
+                    <h3 class="mb-3 title-hotel">Codigo de Vestimenta Hombres</h3>
+                    <p>hola</p>
+                </div>
+            </div>
+            <div class="owl-carousel-item " data-dot="<img src='img/carousel-1.jpg'>">
+                <img class="img-fluid" src="img/assets/Man.png" alt="">
+                <div class="owl-carousel-inner">
+                    <h3 class="mb-3 title-hotel">Codigo de Vestimenta Mujeres</h3>
+                    <p>hola</p>
+                </div>
+            </div>
+    </div> -->
 
+   
 
    
 
@@ -410,6 +461,22 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+     <!-- JavaScript Libraries -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
