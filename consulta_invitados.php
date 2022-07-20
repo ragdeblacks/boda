@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "www.evelyn-edgar.com";
 $database = "evelyned_boda";
 $username = "evelyned_admin";
 $password = "VMcR5rehziEUFLy";

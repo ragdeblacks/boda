@@ -11,6 +11,8 @@ function checarTiempo() {
     $('#confirmados').hide();
     $('#gracias').hide();
     $('#selector_nino').hide();
+    $('#ninos_conta').hide();
+    consultarInvitados();
     setInterval(function () {
         var current_date = new Date().getTime();
 
@@ -33,9 +35,7 @@ function checarTiempo() {
         document.getElementById('date-seg').innerHTML = seconds;
 
     }, 1000);
-    var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-    var carousel = new bootstrap.Carousel(myCarousel)
-    consultarInvitados();
+    
 }
 function buscar(){
     $('#datos_encontrados').hide();
@@ -44,6 +44,7 @@ function buscar(){
     $('#select_adultos' ).find('option').remove();
     $('#select_ninos' ).find('option').remove();
     $('#selector_nino').hide();
+    $('#ninos_conta').hide();
     var campo = document.getElementById('nombre_search');
     var encontrado = 0;
     var nombre_encontrado_normal = '';
@@ -75,9 +76,14 @@ function buscar(){
                 }else{
                     document.getElementById('subject_adult').innerHTML = 'boleto';
                 }
-                if(b_niñ > 1 || b_niñ == 0){
+                if(b_niñ > 1 ){
+                    $('#ninos_conta').show();
                     document.getElementById('subject_nin').innerHTML = 'boletos';
+                }else if ( b_niñ == 0){
+                    console.log('entra');
+                    $('#ninos_conta').hide();
                 }else{
+                    $('#ninos_conta').show();
                     document.getElementById('subject_nin').innerHTML = 'boleto';
                 }
                 

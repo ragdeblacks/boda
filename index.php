@@ -176,7 +176,7 @@
                         </div>
                         <div class="row g-3" id="datos_encontrados" >
                             <div class="col-12 col-sm-12">
-                                <p class="section-info mb-4">Hola <strong id="nombre_encontrado"></strong> tienes disponibles <strong id="boletos_adulto"></strong> <span id="subject_adult"></span> para adulto y <strong id="boletos_nino"></strong> <span id="subject_nin"></span> para niño, por favor selecciona la cantidad de boletos que usaras.</p>
+                                <p class="section-info mb-4">Hola <strong id="nombre_encontrado"></strong> tienes disponibles <strong id="boletos_adulto"></strong> <span id="subject_adult"></span> para adulto <span id="ninos_conta">y <strong id="boletos_nino"></strong> <span id="subject_nin"></span> para niño,</span> por favor selecciona la cantidad de boletos que usaras.</p>
                             </div>
                             <div class="col-12 col-sm-12">
                                 <div class="row">
@@ -204,7 +204,7 @@
                             <div class="col-12">
                                 <div class="row">
                                     <div class="col">
-                                        <button class="btn btn-primary w-100 py-3" type="button" onclick="confirmar(true)">Confirmar Asistencia</button>
+                                        <button class="btn btn-primary w-100 py-3" type="button" onclick="confirmar(true)">Confirmar</button>
                                     </div>
                                     <div class="col">
                                         <button class="btn btn-secondary w-100 py-3" type="button" onclick="confirmar(false)">No Asistire</button>
@@ -391,12 +391,6 @@
                             
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/assets/Man.png" class="img-fluid" >
-                                    <div class="carousel-caption">
-                                        <p class="mb-0 text-codigov">Formal - Traje</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
                                     <img src="img/assets/mujer.png" class="img-fluid" alt="...">
                                     <div class="carousel-caption">
                                         <p class="mb-0 text-codigov">Formal - Vestido largo excepto color bugambilia</p>
@@ -424,25 +418,6 @@
     </div>
     <!-- Service End -->
 
-
-    <!-- <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item " data-dot="<img src='img/carousel-1.jpg'>">
-                <img class="img-fluid" src="img/assets/Man.png" alt="">
-                <div class="owl-carousel-inner">
-                    <h3 class="mb-3 title-hotel">Codigo de Vestimenta Hombres</h3>
-                    <p>hola</p>
-                </div>
-            </div>
-            <div class="owl-carousel-item " data-dot="<img src='img/carousel-1.jpg'>">
-                <img class="img-fluid" src="img/assets/Man.png" alt="">
-                <div class="owl-carousel-inner">
-                    <h3 class="mb-3 title-hotel">Codigo de Vestimenta Mujeres</h3>
-                    <p>hola</p>
-                </div>
-            </div>
-    </div> -->
-
-   
 
    
 
