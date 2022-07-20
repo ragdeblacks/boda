@@ -159,51 +159,70 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="section-title">Confirma tu Asistencia</p>
-                        <p class="section-info mb-4">Para nosotros es muy importante conocer quienes nos acompañaran en este momento tan importante de nuestras vidas. Te pedimos que nos ayudes verificando la cantidad de boletos que con seguridad ocuparas, es muy importante para nosotros.</p>
+                        <p class="section-info mb-4">Para nosotros es importante conocer quien nos acompañara en este momento tan importante. Te pedimos que nos ayudes colocando tu <strong>nombre completo</strong> y verificando la cantidad de boletos que con seguridad ocuparas.</p>
                         <div class="row g-4">
                             
                             
                         </div>
                     </div>
                     <div class="col-lg-6 wow  fadeInUp" data-wow-delay="0.5s">
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
+                        <div class="row g-3 pb-3">
+                            <div class="col-8 col-sm-8">
+                                <input type="text" id="nombre_search" class="form-control" placeholder="Busca tu Nombre" style="height: 55px;">
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
+                            <div class="col-4 col-sm-4">
+                                <button class="btn btn-primary w-100 py-3" type="button" onclick="buscar()">Buscar</button>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
+                        </div>
+                        <div class="row g-3" id="datos_encontrados" >
+                            <div class="col-12 col-sm-12">
+                                <p class="section-info mb-4">Hola <strong id="nombre_encontrado"></strong> tienes disponibles <strong id="boletos_adulto"></strong> <span id="subject_adult"></span> para adulto y <strong id="boletos_nino"></strong> <span id="subject_nin"></span> para niño, por favor selecciona la cantidad de boletos que usaras.</p>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select" style="height: 55px;">
-                                    <option selected>Choose Service</option>
-                                    <option value="1">Service 1</option>
-                                    <option value="2">Service 2</option>
-                                    <option value="3">Service 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="date" id="date" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control datetimepicker-input"
-                                        placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                            <div class="col-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col" style ="align-self: center;">
+                                        <p class="section-info mb-0">Numero de boletos de adulto</p>
+                                    </div>
+                                    <div class="col">
+                                        <select class="form-select" id="select_adultos" style="height: 55px;">
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="time" id="time" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control datetimepicker-input"
-                                        placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                </div>
+                            <div class="col-12 col-sm-12" id="selector_nino">
+                                <div class="row">
+                                        <div class="col" style ="align-self: center;">
+                                            <p class="section-info mb-0">Numero de boletos de niño</p>
+                                        </div>
+                                        <div class="col">
+                                            <select class="form-select" id="select_ninos" style="height: 55px;">
+                                            </select>
+                                        </div>
+                                    </div>
                             </div>
+                            <input type="hidden" id="idInvitado" value="">
                             <div class="col-12">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="btn btn-primary w-100 py-3" type="button" onclick="confirmar(true)">Confirmar Asistencia</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-secondary w-100 py-3" type="button" onclick="confirmar(false)">No Asistire</button>
+                                    </div>
+                                
                             </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Confirmar</button>
-                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div id="confirmados" class="row g-3" >
+                        <div class="col-12 col-sm-12">
+                            <p class="section-info mb-4">Hola <strong id="nombre_encontrado_confirmado"></strong> ya has confirmado tu asistencia con anterioridad, nos vemos en el evento. </p>
+                        </div>
+                    </div>
+                    <div id="gracias" class="row g-3" >
+                        <div class="col-12 col-sm-12">
+                            <p class="section-info mb-4">¡Tu confirmación ha quedado registrada, muchas gracias!</p>
                         </div>
                     </div>
                 </div>
@@ -372,15 +391,10 @@
                             
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    
                                     <img src="img/assets/Man.png" class="img-fluid" >
-                                    
-                                    
                                     <div class="carousel-caption">
-                                        <p class="mb-0 text-codigov">Formal - Smoking o traje</p>
+                                        <p class="mb-0 text-codigov">Formal - Traje</p>
                                     </div>
-                                    
-                                    
                                 </div>
                                 <div class="carousel-item">
                                     <img src="img/assets/mujer.png" class="img-fluid" alt="...">
