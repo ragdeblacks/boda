@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$database = "boda";
-$username = "admin";
-$password = "Edsa3372";
+$database = "evelyned_boda";
+$username = "evelyned_admin";
+$password = "VMcR5rehziEUFLy";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
@@ -15,13 +15,13 @@ $adultos_reales = $_GET['adultos'];
 $ninos_reales = $_GET['ninos'];
 $update = '';
 if($confirma == '1'){
-    $update = "UPDATE `INVITADOS` SET 
+    $update = "UPDATE `invitados` SET 
         `asistencia` = $confirma, 
         `adultos_reales` = $adultos_reales, 
         `niños_reales` = $ninos_reales 
     WHERE (`id` = $id)";
 }else{
-    $update = "UPDATE `INVITADOS` SET 
+    $update = "UPDATE `invitados` SET 
         `asistencia` = $confirma
     WHERE (`id` = $id)";
 }
