@@ -39,7 +39,7 @@
     <div class="container-logo container-fluid wow fadeIn" data-wow-delay="0.1s">
         <div style="position:relative">
             <div class="text-center container-save-date-3" ></div>
-            <img src="img/assets/photos/z-1.jpg" class="img-fluid img-principal-logo" style="width: -webkit-fill-available;" />
+            <img src="img/assets/photo-f/z-3.jpg" class="img-fluid img-principal-logo" style="width: -webkit-fill-available;" />
             <div class="text-center contenedor-header" >
                 <img  src="img/assets/header-2.png" class="img-fluid img-logo"  />
             </div>
@@ -106,7 +106,7 @@
     <!-- Facts Start -->
     <div class="container-xxl content-info-boda wow fadeInUp mb-4" data-wow-delay="0.1s">
         <div class="container text-center pt-1">
-            <img class="img-fluid img-vid" src="img/assets/img-a.jpeg" alt="">
+            <img class="img-fluid img-vid" src="img/assets/photo-f/z-4.jpg" alt="">
         </div>
     </div>
     <!-- Facts End -->
@@ -144,18 +144,85 @@
 
     <div class="container-logo-2 container-fluid wow fadeIn" data-wow-delay="0.1s">
         <div style="position:relative" class="background-confirma">
-            <div class="text-center contenedor-header-2" >
+            <!-- <div class="text-center contenedor-header-2" >
                 <img  src="img/assets/header-3.png" class="img-fluid img-logo"  />
-            </div>
+            </div> -->
+
             <div class="text-center container-decorator" >
                 <div class="grad-r"></div>
-                
             </div>
             <div class="text-center container-decorator" >
                 <div class="grad-l"></div>
             </div>
-
-            <div class="container container-confirma mt-5 mb-5">
+            <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-sm-12 col-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="section-title">Agradecemos tu confirmacion, nos vemos en el evento</p>
+                    </div>
+                </div>
+                    
+                <div class="row g-5">
+                    <div class="col-lg-4 col-sm-4 col-4 col-md-12 mb-2 mb-lg-0">
+                    <img
+                        src="img/assets/photo-f/x-1.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water"
+                    />
+                    <img
+                        src="img/assets/photo-f/x-9.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water"
+                    />
+                    <img
+                        src="img/assets/photo-f/x-2.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Wintry Mountain Landscape"
+                    />
+                    </div>
+                
+                    <div class="col-lg-4 col-sm-4 col-4 mb-2 mb-lg-0">
+                    <img
+                        src="img/assets/photo-f/x-3.jpg"
+                        class="img-collage  shadow-1-strong rounded mb-4"
+                        alt="Mountains in the Clouds"
+                    />
+                
+                    <img
+                        src="img/assets/photo-f/x-4.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water"
+                    />
+                    <img
+                        src="img/assets/photo-f/x-5.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Boat on Calm Water"
+                    />
+                    </div>
+                
+                    <div class="col-lg-4 mb-2 col-4 col-sm-4 mb-lg-0">
+                    <img
+                        src="img/assets/photo-f/x-6.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Waves at Sea"
+                    />
+                
+                    <img
+                        src="img/assets/photo-f/x-7.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park"
+                    />
+                    <img
+                        src="img/assets/photo-f/x-8.jpg"
+                        class="img-collage shadow-1-strong rounded mb-4"
+                        alt="Mountains in the Clouds"
+                    />
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+        </div>
+            <!-- <div class="container container-confirma mt-5 mb-5">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="section-title">Confirma tu Asistencia</p>
@@ -226,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
         </div>
@@ -238,59 +305,7 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                  <img
-                    src="img/assets/photos/b-4.jpeg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                  />
-              
-                  <img
-                    src="img/assets/photos/a-30.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Wintry Mountain Landscape"
-                  />
-                </div>
-              
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                  <img
-                    src="img/assets/photos/a-29.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mountains in the Clouds"
-                  />
-              
-                  <img
-                    src="img/assets/photos/a-27.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                  />
-                  <img
-                    src="img/assets/photos/b-3.jpeg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                  />
-                </div>
-              
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                  <img
-                    src="img/assets/photos/a-16.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Waves at Sea"
-                  />
-              
-                  <img
-                    src="img/assets/photos/a-13.jpg"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Yosemite National Park"
-                  />
-                </div>
-              </div>
-              <!-- Gallery -->
-        </div>
-    </div>
+    
     <!-- About End -->
 
     
@@ -393,7 +408,23 @@
                                 <div class="carousel-item active">
                                     <img src="img/assets/mujer.png" class="img-fluid" alt="...">
                                     <div class="carousel-caption">
-                                        <p class="mb-0 text-codigov">Formal - Vestido largo excepto color bugambilia</p>
+                                        <p class="mb-0 text-codigov">Formal - Vestido excepto color bugambilia</p> 
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            width="30" height="30" viewBox="0 0 120 120">
+                                        <circle cx="60" cy="60" r="50"
+                                                fill="#A92E8A" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/assets/man.png" class="img-fluid" alt="...">
+                                    <div class="carousel-caption">
+                                        <p class="mb-0 text-codigov">Formal - Excepto color gris Medio</p>
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            width="30" height="30" viewBox="0 0 120 120">
+                                        <circle cx="60" cy="60" r="50"
+                                                fill="#777777" />
+                                        </svg>
                                     </div>
                                 </div>
                             </div>

@@ -121,7 +121,7 @@
     left: 0;
     height: -webkit-fill-available;
     width: -webkit-fill-available;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(46, 46, 48)105%);
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(46, 46, 30)130%);
 }
 
 .text-carrusel{
@@ -146,6 +146,9 @@
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+    .img-collage{
+        width: 120% !important;
+    }
     .container-logo{
         z-index: 6;
         position: relative;
@@ -274,12 +277,13 @@
         padding-top: 14%;
         padding-bottom: 14%;
     }
-    .container-confirma .section-title{
+    .section-title{
         font-family: Parisienne-Regular;
-        font-size: 24px;
+        font-size: 14px;
         color: #BD9362;
         text-transform: capitalize;
         font-weight: normal;
+        text-align: center;
     }
     .container-confirma .section-info{
         font-family: Montserrat-Regular;
@@ -330,6 +334,9 @@
   
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1380px){
+    .img-collage{
+        width: 100% !important;
+    }
     .img-logo{
         max-width:55%;
     }
@@ -428,12 +435,13 @@
         padding-top: 16%;
         padding-bottom: 16%;
     }
-    .container-confirma .section-title{
+    .section-title{
         font-family: Parisienne-Regular;
         font-size: 45px;
         color: #BD9362;
         text-transform: capitalize;
         font-weight: normal;
+        text-align: center;
     }
     .container-confirma .section-info{
         font-family: Montserrat-Regular;
@@ -476,6 +484,9 @@
   
 /* Media Query for Large screens */
 @media (min-width: 1381px) {
+    .img-collage{
+        width: 100% !important;
+    }
     .img-logo{
         max-width:60%;
     }
@@ -567,12 +578,13 @@
         font-family: Montserrat-Regular;
         font-size: 20px;
     }
-    .container-confirma .section-title{
+    .section-title{
         font-family: Parisienne-Regular;
-        font-size: 50px;
+        font-size: 40px;
         color: #BD9362;
         text-transform: capitalize;
         font-weight: normal;
+        text-align: center;
     }
     .container-confirma .section-info{
         font-family: Montserrat-Regular;
